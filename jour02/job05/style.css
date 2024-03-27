@@ -1,0 +1,18 @@
+body {
+    min-height: 4096px;
+    background-color: #2f3a56;
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    top: 98vh;
+    background-color: #D8E8E8;
+}
+
+.green {
+    background-color: green;
+    width:  10%;
+    height: 100%;
+}
