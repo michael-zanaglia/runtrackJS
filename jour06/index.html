@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8f9fb;">
+        <div class="container-fluid">
+            <a href="#" class="nav-brand h4" style="color:black; text-decoration: none;">LPTF</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a href="#" id="exo" class="nav-brand h6 nav-link active" style="text-decoration: none;font-weight: 100px;">Accueil</a>            
+                    <a href="#" class="nav-brand h6 nav-link"  style="text-decoration: none;font-weight: 100px;">Units</a>
+                    <a href="#" class="nav-brand h6 nav-link"  style="text-decoration: none;font-weight: 100px;">Jobs</a>
+                    <a href="#" class="nav-brand h6 nav-link disabled" style="text-decoration: none;">Skills</a> 
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay">
+        <h2>Confirmer votre achat ?</h2>
+        <button>Oui</button>
+        <button id="NO">Non</button>
+    </div>
+    <main class="opacity">
+        <h1 class="text-center">Laplateforme_</h1>
+        <div class="container-fluid" id="dd">
+            <div class="row">
+                <div class="col" id="papillon">
+                    <div class="col"><img src="pap.jpg" alt="un papillon de lumière"></div>
+                    <div class="col p-2 rounded" id="bloc-blanc">
+                        <h6 style="font-weight: bold;">Un Papillon</h6>
+                        <p>Un papillon, c'est un peu comme une chenille, mais avec des ailes. Ne pas ingerer.</p>
+                        
+                        <button class="rounded btrfly" style="background-color: #0078ff; color: whitesmoke;">Commander votre propre papillon</button>
+                    </div>
+                </div>
+                <div class="col-8 rounded d-flex flex-column ordering" style="background-color: #e8ecef; width: auto;">
+                    <div class="mt-5 mx-4"><h1>Bonjour, monde!</h1></div>
+                    <div class="ligne mx-4"><p class="pp">Il existe plusieurs visions du terme :
+                            le monde est la matière, l'espace et les phénomènes qui nous sont accessibles par les sens, l'expérience ou la raison.
+                            Le sens le plus courant désigne notre planète, la Terre, avec ses habitants, et son environnement plus ou moins naturel.
+                        </p>
+                        <footer class="quote blockquote-footer">from Blade runner</footer>
+                    </div>
+                    <div class="sous-ligne mt-4 mx-4"><p>Le sens étendu désigne l'univers dans son ensemble.</p></div>
+                    <div>
+                        <button class="reboot mx-4 pt-2 pb-2 px-3 rounded align-self-start">Rebooter le Monde</button>
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only"></span>
+                        </div>
+                    </div>
+                    <div class="page pb-5">
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a href="#" class="page-link">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                </div>
+                <div class="col rounded order-lg-last" id="bloc-blanc2">
+                    <div class="ho" class="col border-bottom"><p>Limbes</p></div>
+                    <div class="ho" class="col border-bottom"><p>Luxure</p></div>
+                    <div class="ho" class="col border-bottom"><p>Gourmandise</p></div>
+                    <div class="ho" class="col border-bottom"><p>Avarice</p></div>
+                    <div class="ho" class="col border-bottom"><p>Colere</p></div>
+                    <div class="ho" class="col border-bottom"><p>Heresie</p></div>
+                    <div class="ho" class="col border-bottom"><p>Violence</p></div>
+                    <div class="ho" class="col border-bottom"><p>Ruse et Tromperie</p></div>
+                    <div class="ho" class="col border-bottom"><p>Trahison</p></div>
+                    <div class="ho" class="col"><p>Internet Explorer</p></div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center text-end">
+                <p class="ai">Installation de AI 9000</p>
+                <div class="bloc__loading">
+                    <div class="progress" style="width: 50%;">
+                        <button id="recule"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg></button>
+                        <div id="pro" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>      
+                        <button id="avance"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg></button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="container-fluid mx-5">
+            <div class="row mx-5">
+                <div class="col mx-5">
+                    <h6>Recevez votre copie gratuite d'internet 2!</h6>
+                    <div class="">
+                        <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        </div>
+                        <input type="text" class="form-control is-valid" id="validationServerUsername" placeholder="Login" aria-describedby="inputGroupPrepend3" required>
+                        </div>
+                        <div class="input-group">
+                        <input type="password" class="form-control is-valid" id="validationServerUsername" placeholder="Mot de passe" aria-describedby="inputGroupPrepend3" required>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend3">@example.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p>URL des Internets 2 et 2.1 Beta</p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">DogeCoin</span>
+                            </div>
+                            <input type="text" class="form-control is-valid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">.00</span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">https://l33t.lptf/dkwb/berlusconimkt</span>
+                            </div>
+                            <input type="text" class="form-control is-valid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <form id="formu">
+                    <div class="inp">
+                        <label for="validationServer01">Email</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="inp">
+                        <label for="validationServer01">Password</label>
+                        <input type="password" class="form-control is-valid" id="validationServer01" placeholder="" required>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Check me out</label>
+                    </div>
+                    
+                    <button class="rounded mt-3" style="background-color: #0078ff; color: whitesmoke;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./scriptjquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

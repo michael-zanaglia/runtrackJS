@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    background-color: #014eca;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2 {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.direction {
+    background-color: #0060ff;
+    align-self: stretch;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+}
+.direction:hover {
+    background-color: azure;
+    cursor: pointer;
+}
+.direction:hover a{
+    color: black;
+}
+
+#formulaire{
+    background-color: #0060ff;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    row-gap: 5px;
+    height: 70vh;
+}
+
+textarea, input {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: -7px;
+    resize: none;
+    height: 25%;
+    width : 99%;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+#div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+#div3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#co {
+    justify-self: center;
+    width: 15%;
+}
+
+#font {
+    color: azure;
+}
